@@ -13,6 +13,7 @@
 		FA56C2A51A6B0DBB0061493B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA56C2A41A6B0DBB0061493B /* Images.xcassets */; };
 		FA56C2A81A6B0DBB0061493B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA56C2A61A6B0DBB0061493B /* LaunchScreen.xib */; };
 		FA56C2B41A6B0DBB0061493B /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56C2B31A6B0DBB0061493B /* BullseyeTests.swift */; };
+		FABBAFE31A971C9200CF898B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBAFE21A971C9200CF898B /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FA56C2AD1A6B0DBB0061493B /* BullseyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA56C2B21A6B0DBB0061493B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA56C2B31A6B0DBB0061493B /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
+		FABBAFE21A971C9200CF898B /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				FA56C29D1A6B0DBA0061493B /* AppDelegate.swift */,
 				FA56C29F1A6B0DBA0061493B /* ViewController.swift */,
 				FA56C2A11A6B0DBB0061493B /* Main.storyboard */,
+				FABBAFE21A971C9200CF898B /* AboutViewController.swift */,
 				FA56C2A41A6B0DBB0061493B /* Images.xcassets */,
 				FA56C2A61A6B0DBB0061493B /* LaunchScreen.xib */,
 				FA56C29B1A6B0DBA0061493B /* Supporting Files */,
@@ -156,7 +159,7 @@
 		FA56C2901A6B0DBA0061493B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "raymond smith";
 				TargetAttributes = {
 					FA56C2971A6B0DBA0061493B = {
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABBAFE31A971C9200CF898B /* AboutViewController.swift in Sources */,
 				FA56C2A01A6B0DBA0061493B /* ViewController.swift in Sources */,
 				FA56C29E1A6B0DBA0061493B /* AppDelegate.swift in Sources */,
 			);
@@ -289,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -339,6 +343,7 @@
 				INFOPLIST_FILE = Bullseye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -349,6 +354,7 @@
 				INFOPLIST_FILE = Bullseye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -405,6 +411,7 @@
 				FA56C2B91A6B0DBB0061493B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA56C2BA1A6B0DBB0061493B /* Build configuration list for PBXNativeTarget "BullseyeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				FA56C2BC1A6B0DBB0061493B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
